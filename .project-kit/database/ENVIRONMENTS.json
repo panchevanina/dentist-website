@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "project_id": "website_nina_pancheva",
+  "instructions": "../DATABASES.md",
+  "private_root": "REPLACE_WITH_ABSOLUTE_LOCAL_PRIVATE_DIRECTORY_OUTSIDE_ALL_REPOS",
+  "environments": {
+    "local": {
+      "configured": false,
+      "disposable": false,
+      "inspection_requires": "task authorization and verified target",
+      "writes_require": "explicitly disposable database or specific approved change",
+      "postgresql": {
+        "service": "project_local",
+        "service_file": "local/pg_service.conf",
+        "password_file": "local/pgpass"
+      },
+      "mongodb": {
+        "profile_file": "local/mongodb.json"
+      }
+    },
+    "dev": {
+      "configured": false,
+      "disposable": false,
+      "inspection_requires": "authorized scoped read-only access",
+      "writes_require": "approved exact change, target and recovery",
+      "postgresql": {
+        "service": "project_dev",
+        "service_file": "dev/pg_service.conf",
+        "password_file": "dev/pgpass"
+      },
+      "mongodb": {
+        "profile_file": "dev/mongodb.json"
+      }
+    },
+    "staging": {
+      "configured": false,
+      "disposable": false,
+      "inspection_requires": "authorized scoped read-only access",
+      "writes_require": "approved exact change, target and recovery",
+      "postgresql": {
+        "service": "project_staging",
+        "service_file": "staging/pg_service.conf",
+        "password_file": "staging/pgpass"
+      },
+      "mongodb": {
+        "profile_file": "staging/mongodb.json"
+      }
+    },
+    "prod": {
+      "configured": false,
+      "disposable": false,
+      "inspection_requires": "explicit production access authorization; minimal read-only scope",
+      "writes_require": "explicit production rollout authorization, exact reviewed artifact and verified recovery",
+      "postgresql": {
+        "service": "project_prod",
+        "service_file": "prod/pg_service.conf",
+        "password_file": "prod/pgpass"
+      },
+      "mongodb": {
+        "profile_file": "prod/mongodb.json"
+      }
+    }
+  }
+}

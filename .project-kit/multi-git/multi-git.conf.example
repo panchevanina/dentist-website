@@ -1,0 +1,33 @@
+# INI format. Example paths/IDs are illustrative; edit for your actual workspace.
+# init generates repo sections; aliases/groups are added manually.
+# This file is data: it must never be sourced as a shell script.
+
+[workspace]
+schema_version = 1
+root = .
+history_dir = .multi-git
+protected_branches = main, master, develop, development, staging
+
+[repo:fnbrt_bo_fe]
+path = fnbrt_bo_fe
+enabled = true
+fetch_remote = origin
+push_remote = origin
+alias.develop = develop
+
+[repo:fnbrt_server_be]
+path = fnbrt_server_be
+enabled = true
+fetch_remote = origin
+push_remote = origin
+alias.develop = development
+
+[repo:fnbrt_cdm_be]
+path = fnbrt_cdm_be
+enabled = true
+fetch_remote = origin
+push_remote = origin
+alias.develop = develop
+
+[group:bugfix]
+repos = fnbrt_bo_fe, fnbrt_server_be, fnbrt_cdm_be

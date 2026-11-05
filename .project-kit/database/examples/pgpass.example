@@ -1,0 +1,4 @@
+# Template only: insert actual values in your private file, never in chat/commands.
+# Use exact host/port/database/user values, not wildcard entries.
+# Escape literal colon and backslash characters with a backslash.
+DB_HOST_REPLACE_ME:5432:DB_NAME_REPLACE_ME:READ_ONLY_ROLE_REPLACE_ME:PASSWORD_REPLACE_ME

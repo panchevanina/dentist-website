@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "services": [
+    {
+      "id": "itero-plus",
+      "title": "Интраорален скенер iTero Element Plus",
+      "image": "images/itero-element-plus.jpg",
+      "imageSource": "https://instituteofdigitaldentistry.com/wp-content/uploads/2021/02/itero-element-5D-plus-series.jpg",
+      "imagePage": "https://instituteofdigitaldentistry.com/cad-cam/the-new-itero-element-plus-imaging-system/",
+      "clinicalSources": [
+        "https://itero.com/our-solutions/itero-element-plus-series",
+        "https://itero.com/en-eu/our-solutions/itero-element-plus-series"
+      ]
+    },
+    {
+      "id": "invisalign",
+      "title": "Прозрачни алайнери Invisalign",
+      "image": "images/invisalign-aligners.jpg",
+      "imageSource": "https://www.arlingtondentalma.com/uploads/blog-images/1481385742Invisalign-treatment-and-benefits-arlington-dentist.jpg",
+      "imagePage": "https://www.arlingtondentalma.com/blog/invisalign-treatment-process-and-its-benefits",
+      "clinicalSources": [
+        "https://www.invisalign.com/resources/living-with-invisalign/invisalign-overview-guide",
+        "https://www.invisalign.com/resources/straightening/invisalign-treatment-difference-vs-other-clear-aligners",
+        "https://www.invisalign.com.au/"
+      ]
+    },
+    {
+      "id": "zimmer-implants",
+      "title": "Дентални импланти Zimmer",
+      "image": "images/zimmer-zimvie-implants.png",
+      "imageSource": "https://www.zimvie.com/en/dental/dental-implant-systems/_jcr_content/root/container/container_361967832_/container_885737155/container/product_card/image.coreimg.png/1771432189270/t3-pro-fam-implant.png",
+      "imagePage": "https://www.zimvie.com/en/dental/dental-implant-systems.html",
+      "clinicalSources": [
+        "https://www.zimvie.com/en/dental/dental-implant-systems.html",
+        "https://www.zimvie.com/content/dam/zimvie-corporate/en/dental/literature/zvinst00121/zvinst0012_surgical_manual_t3-t3_pro_osseotite_final_secured.pdf"
+      ]
+    },
+    {
+      "id": "spark-aligners",
+      "title": "Прозрачни алайнери Spark",
+      "image": "images/spark-aligners.webp",
+      "imageSource": "https://www.dentalcareireland.ie/wp-content/uploads/2024/01/DCI-Spark-Blog.jpg",
+      "imagePage": "https://www.dentalcareireland.ie/blog/align-your-2024-goals-with-spark-aligners/",
+      "clinicalSources": [
+        "https://sparkaligners.com/en-us",
+        "https://sparkaligners.com/en-us/faq"
+      ]
+    }
+  ],
+  "notes": [
+    "Service availability is supplied by the user. No provider-tier or certification claim is inferred.",
+    "iTero is described as a high-end digital scanning system; an unverified worldwide-best ranking is not asserted. NIRI is not promised without confirmation of the scanner configuration.",
+    "The user-supplied Zimmer image depicts the T3 PRO family offered by ZimVie. The article describes the product family and does not assert the exact model used by the practice.",
+    "The exact supplied map place URL is retained; 9009 replaces the former postal code. Existing floor 2 / room 206 information is retained because the supplied location identifies the same street/building and does not contradict it."
+  ]
+}

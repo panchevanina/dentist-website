@@ -1,0 +1,12 @@
+# Template only: replace values privately. No actual connection is configured.
+# Duplicate this small file per environment; use the matching service alias.
+[project_local]
+host=DB_HOST_REPLACE_ME
+port=5432
+dbname=DB_NAME_REPLACE_ME
+user=READ_ONLY_ROLE_REPLACE_ME
+sslmode=verify-full
+sslrootcert=/ABSOLUTE/PATH/TO/TRUSTED_CA.crt
+connect_timeout=5
+application_name=agent-db-inspection
+options=-c default_transaction_read_only=on -c statement_timeout=5000 -c lock_timeout=1000

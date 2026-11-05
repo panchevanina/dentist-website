@@ -1,0 +1,23 @@
+# Development-kit local runtime data (not an agent access boundary)
+.usage/
+.multi-git/
+.project-init/
+__pycache__/
+*.pyc
+# Merge into EACH repository that could contain these files.
+# Canonical secret storage belongs outside every Git root.
+# Ignoring a file does not untrack an already tracked file or deny agent reads.
+.db-private/
+.db-artifacts/
+.env
+.env.*
+!.env.example
+!.env.*.example
+pg_service.conf
+.pg_service.conf
+pgpass
+.pgpass
+mongodb.local.json
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,6 @@
+{
+  "configured": false,
+  "environment": "local",
+  "database": "DB_NAME_REPLACE_ME",
+  "connection_uri": "mongodb://USER_REPLACE_ME:PASSWORD_REPLACE_ME@HOST_REPLACE_ME:27017/DB_NAME_REPLACE_ME?authSource=admin&tls=true&serverSelectionTimeoutMS=5000&connectTimeoutMS=5000&socketTimeoutMS=5000&appName=agent-db-inspection"
+}

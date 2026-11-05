@@ -1,0 +1,84 @@
+PROJECT OPERATIONS — website_nina_pancheva
+
+Working directory: /home/deann/projects/playground/website_nina_pancheva/.project-kit (the kit folder, not the application root)
+Prerequisites: Unix shell, Python 3.10+, Git 2.40+; no pip install/API key.
+cd /home/deann/projects/playground/website_nina_pancheva/.project-kit
+
+USAGE: run on the machine with Codex desktop session logs.
+python3 usage/collector.py import
+python3 usage/collector.py watch
+watch polls every 5 seconds. Stop: Ctrl+C in its terminal. Restart: repeat watch.
+Restart after changing usage/config.json; no restart per chat/desktop restart.
+import runs once and exits; later imports catch up from retained logs.
+Do not overlap with another collector for the same dataset. Instructions do not
+launch Python. Counts depend on logged evidence; exact shell-command token
+charges may be unavailable. No dashboard UI or subscription bill is generated.
+python3 usage/collector.py summary --group project --project website_nina_pancheva
+python3 usage/collector.py summary --group turn --project website_nina_pancheva
+python3 usage/collector.py export --project website_nina_pancheva --out .usage/dashboard-data.json
+python3 usage/collector.py advice --project website_nina_pancheva --out .usage/advice.json
+Feedback: use actual session/turn IDs from summary and the assess command;
+python3 usage/collector.py assess --help
+Stop watch before: python3 usage/collector.py rebuild
+Then: python3 usage/collector.py import
+
+GIT: inspect multi-git.conf first (paths, remotes, aliases, groups).
+./multi-git/multi-git.sh status --all
+./multi-git/multi-git.sh --config multi-git.conf status --repos website --json
+Status uses cached refs; it does not fetch. Empty configs need repos registered.
+Preview: ./multi-git/multi-git.sh pull --all
+Execute an authorized operation: ./multi-git/multi-git.sh pull --all --execute
+Other commands: fetch, switch, branch-create, commit, merge, rebase, tag,
+push, history, report and rollback; exact options in multi-git/README.md.
+Commits/pushes need explicit requests. Merge/rebase require clean guarded trees.
+Each Git-manager command exits; nothing to start/restart/stop. Config changes
+apply next invocation. Rollback requires actual run IDs and matching state;
+remote changes and database state are not automatically undone.
+From another directory, pass an absolute --config path and actual script path.
+
+DATABASES: all environments initially unavailable (configured=false).
+Read DATABASES.md, database/ENVIRONMENTS.json and OPTIONAL_CONFIG.md.
+For needed profiles only, use the placeholder formats in database/examples/.
+Create/fill secrets privately outside ALL Git roots, never in agent context.
+No database command has run. Profiles do not automatically configure apps.
+PostgreSQL examples require psql; MongoDB examples require mongosh. Read the
+guide's protected-output connection examples before running an authorized check.
+Unused staging/prod/engine: leave unconfigured; never insert NULL or fall back.
+
+KIT CHECKS (disposable fixtures, no actual project deployment):
+python3 -m unittest discover -s usage -p 'test_*.py'
+python3 -m unittest discover -s multi-git -p 'test_*.py'
+python3 -m unittest discover -s database -p 'test_*.py'
+Database guard tests also require Node.js; they mock connections.
+python3 -m unittest discover -s . -p 'test_init_project.py'
+
+APPLICATION — selected Bulgarian production site (updated 2026-11-05):
+Working directory: /home/deann/projects/playground/website_nina_pancheva
+Root index.html opens the selected white-background design. Four Bulgarian pages,
+19 services, no enquiry form. No install/build is needed for browsing.
+Preview: python3 -m http.server 8000 --bind 127.0.0.1
+Open http://127.0.0.1:8000/ ; stop with Ctrl+C; restart with the same command.
+Regenerate: python3 scripts/build.py (Python 3.10+).
+Checks: python3 scripts/check.py ; node --check assets/site.js.
+HTTP: python3 scripts/http_smoke.py (temporary loopback server, stopped on exit).
+Export: python3 scripts/package.py --output /tmp/pancheva-production-export
+Choose a new folder. A standalone folder and ZIP are produced; no version argument.
+Output inside assets is rejected to prevent recursive source copying.
+Check export: python3 scripts/check.py /tmp/pancheva-production-export
+HTTP export: python3 scripts/http_smoke.py /tmp/pancheva-production-export
+The repository's .github/workflows/pages.yml publishes production files on main
+when HTML, assets, scripts or the workflow change. It can also run manually in
+Actions. Initial setup: Settings > Pages > Source > GitHub Actions.
+Expected URL after successful deployment:
+https://panchevanina.github.io/dentist-website/
+Only four Bulgarian pages + runtime assets are published; prototypes, authoring
+data and project-kit files are excluded. An independent export can still be
+uploaded into another repository with Pages configured to deploy its root branch.
+No database access or email server was configured.
+Contacts are direct telephone/email links; external maps open on user selection.
+Instructions: ../README.md ; current check evidence: ../docs/production-verification.md.
+Browser visual/interaction checks require an available connected browser.
+
+REUSE: keep init-project.sh + init_project.py with the whole kit. Re-run against
+another target (do not copy only the launcher). Existing files are preserved
+unless individually approved for replacement; approved replacements get backups.

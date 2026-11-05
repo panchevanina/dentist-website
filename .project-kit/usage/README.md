@@ -1,0 +1,13 @@
+# Project-local Codex usage collector
+
+See [executable examples](../USAGE_EXAMPLES.txt), [configuration](config.json), [unused values](../OPTIONAL_CONFIG.md), [usage schema](record.schema.json) and [metadata schema](metadata.schema.json). Python 3.10+, standard library only. No API/model calls. Run on the machine holding desktop logs; default sources are `$CODEX_HOME/sessions` and `$CODEX_HOME/archived_sessions`, or `~/.codex` when unset.
+
+The initializer configures this project and its repository roots under one stable ID, with output in `../.usage` relative to this config: `.project-kit/.usage` in the application workspace. External worktrees need their own root entries. You can instead use one central collector for multiple projects; do not run overlapping collectors and do not add duplicate exports together. Relative config paths resolve against the config directory. Restart a watcher after editing config.
+
+From `.project-kit/`, `python3 usage/collector.py import` catches up and exits; `python3 usage/collector.py watch` polls every five seconds in a separate terminal. From the application root, use `python3 .project-kit/usage/collector.py ...`. Stop with Ctrl+C, restart with the same command. It creates no auto-start service. An AGENTS file does not start it. No tracking ran during initialization.
+
+JSONL observations and a rebuildable SQLite index go to `.usage/`. Queries/tools retain metadata, not prompt text, arguments or command output. User-approved assessments can contain redacted summaries; never supply secrets. `summary` reports project/session/turn/model/effort/date groups; `export --out` produces deduplicated dashboard JSON; `advice` makes local evidence-based suggestions; `assess` records actual human feedback. Stop watch before `rebuild`, then import again. See `--help` for options.
+
+Prefer reported model-response usage; snapshots reconcile/fill coverage gaps and must not be added again. Cached input is included in input, reasoning in output. Missing counts remain null and coverage diagnostics are explicit. Multiple queries may share turn attribution. Exact per-shell-command charges may be unavailable, including nested orchestration. Logs vary by app version; unknown/reset/partial records are diagnostic evidence. This is no subscription invoice or dashboard UI. Lost/unrecorded logs cannot be recovered. Check coverage before interpreting totals or advice.
+
+Regression tests are included; no original history/design-stage observations are installed. Unix is the target; Windows locking and remote log access require separate validation. No global settings are modified.

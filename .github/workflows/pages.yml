@@ -1,0 +1,52 @@
+name: Publish Bulgarian site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '.nojekyll'
+      - 'assets/**'
+      - 'scripts/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+      - name: Generate and verify Bulgarian pages
+        run: |
+          python3 scripts/build.py
+          python3 scripts/check.py
+          node --check assets/site.js
+      - name: Export production files only
+        run: |
+          python3 scripts/package.py --output "$RUNNER_TEMP/pancheva-site"
+          python3 scripts/check.py "$RUNNER_TEMP/pancheva-site"
+          python3 scripts/http_smoke.py "$RUNNER_TEMP/pancheva-site"
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload production site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/pancheva-site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

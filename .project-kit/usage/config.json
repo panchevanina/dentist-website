@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "output_dir": "../.usage",
+  "timezone": "Europe/Sofia",
+  "projects": [
+    {
+      "id": "website_nina_pancheva",
+      "roots": [
+        "/home/deann/projects/playground/website_nina_pancheva"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project model usage observation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_id", "observed_at", "project_id", "session_id", "turn_id", "response_id", "agent_id", "scope", "counter_kind", "measurement_status", "model", "reasoning_effort", "tokens", "source"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "record_id": {"type": "string", "minLength": 1},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "project_id": {"type": "string", "minLength": 1},
+    "session_id": {"type": "string", "minLength": 1},
+    "turn_id": {"type": ["string", "null"]},
+    "response_id": {"type": ["string", "null"]},
+    "agent_id": {"type": ["string", "null"]},
+    "scope": {"enum": ["model_call", "turn", "session"]},
+    "counter_kind": {"enum": ["delta", "cumulative"]},
+    "measurement_status": {"enum": ["reported", "estimated", "unavailable"]},
+    "model": {"type": ["string", "null"]},
+    "reasoning_effort": {"type": ["string", "null"]},
+    "tokens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input", "cached_input", "cache_write_input", "output", "reasoning_output", "total"],
+      "properties": {
+        "input": {"$ref": "#/$defs/count"},
+        "cached_input": {"$ref": "#/$defs/count"},
+        "cache_write_input": {"$ref": "#/$defs/count"},
+        "output": {"$ref": "#/$defs/count"},
+        "reasoning_output": {"$ref": "#/$defs/count"},
+        "total": {"$ref": "#/$defs/count"}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "event_type", "source_ref", "line_number", "timestamp", "client_version"],
+      "properties": {
+        "kind": {"enum": ["codex_session_log", "codex_app_server", "openai_api", "manual", "synthetic"]},
+        "event_type": {"type": ["string", "null"]},
+        "source_ref": {"type": ["string", "null"]},
+        "line_number": {"type": ["integer", "null"], "minimum": 1},
+        "timestamp": {"type": ["string", "null"], "format": "date-time"},
+        "client_version": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "count": {"type": ["integer", "null"], "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"scope": {"const": "model_call"}}},
+      "then": {"properties": {"counter_kind": {"const": "delta"}, "response_id": {"type": "string", "minLength": 1}}}
+    },
+    {
+      "if": {"properties": {"measurement_status": {"const": "unavailable"}}},
+      "then": {"properties": {"tokens": {"properties": {"input": {"const": null}, "cached_input": {"const": null}, "cache_write_input": {"const": null}, "output": {"const": null}, "reasoning_output": {"const": null}, "total": {"const": null}}}}}
+    }
+  ]
+}

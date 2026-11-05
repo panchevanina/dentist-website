@@ -1,0 +1,726 @@
+{
+  "bg": {
+    "name": "Д-р Нина Панчева",
+    "role": "Лекар по дентална медицина",
+    "location": "Дентална практика · Варна",
+    "nav": [
+      "За нас",
+      "Услуги",
+      "Лекар",
+      "Защо нас",
+      "Галерия",
+      "Контакти"
+    ],
+    "book": "Запазете час",
+    "call": "Обадете се",
+    "menu": "Меню",
+    "close": "Затвори",
+    "hero1": "Всяка усмивка заслужава <em>внимание.</em>",
+    "hero2": "Грижа за вас.<br>Хармония в <em>усмивката.</em>",
+    "intro": "Спокойствие, лично отношение и прецизна дентална грижа. Добре дошли в практиката на д-р Нина Панчева във Варна.",
+    "explore": "Разгледайте услугите",
+    "scroll": "Открийте нашата практика",
+    "heroNote": "Вашата усмивка.<br>Нашата грижа.",
+    "since": "Собствена практика от 2012 г.",
+    "nhif": "Работим с НЗОК",
+    "comfort": "Грижа с внимание към комфорта",
+    "aboutLabel": "Добре дошли",
+    "aboutTitle": "Да се чувствате добре.<br>И да се усмихвате спокойно.",
+    "about": [
+      "Ще се радваме да бъдем полезни за Вашето дентално здраве — да се чувствате щастливи с усмивката си и спокойни, че всичко във Вашата уста е наред.",
+      "Започваме лечение само след пълно обезболяване, за да се чувствате комфортно при нас. Държим на висококачествените материали и работим с лаборатория с опитни и компетентни специалисти.",
+      "Посещаваме курсове, лекции и уъркшопове, за да поддържаме и развиваме нивото на нашата работа."
+    ],
+    "servicesLabel": "Как можем да помогнем",
+    "servicesTitle": "Правилната грижа.<br>За вашата усмивка.",
+    "servicesIntro": "От профилактиката до цялостното възстановяване — запознайте се с всички лечения в нашия кабинет.",
+    "categories": [
+      "Всички услуги",
+      "Естетична стоматология",
+      "Протетична стоматология",
+      "Профилактика и венци",
+      "Хирургия и импланти"
+    ],
+    "read": "За лечението",
+    "allTreatments": "Всички лечения подробно",
+    "doctorLabel": "Вашият лекар",
+    "doctorTitle": "Д-р Нина<br><em>Панчева.</em>",
+    "doctorIntro": "Прецизност в детайлите. Лично отношение във всяка среща.",
+    "bio": [
+      [
+        "2008",
+        "Медицински университет – София, Факултет по дентална медицина. Магистър — лекар по дентална медицина."
+      ],
+      [
+        "2012",
+        "Начало на собствената практика във Варна, ул. Андрей Сахаров 27, кабинет 206."
+      ],
+      [
+        "2013–2014",
+        "Хоноруван асистент в катедрата по протетична дентална медицина във Варна — 3 семестъра."
+      ]
+    ],
+    "training": "Обучения и курсове в България и чужбина по пародонтология, имплантология, естетична дентална медицина и ендодонтия.",
+    "certificates": "Разгледайте квалификациите",
+    "whyLabel": "Нашите принципи",
+    "whyTitle": "Доверие, изградено<br>с грижа.",
+    "reasons": [
+      [
+        "13 години опит",
+        "Постоянно усъвършенстване чрез обучения в България и чужбина."
+      ],
+      [
+        "Висок клас материали",
+        "Качеството на материалите е нещо, с което не правим компромис."
+      ],
+      [
+        "Работа без болка",
+        "Лечението започва след пълно обезболяване. Използваме висок клас пречистени анестетици, които минимизират риска от усложнения."
+      ],
+      [
+        "Работа със здравната каса",
+        "Практиката работи с Националната здравноосигурителна каса."
+      ],
+      [
+        "5-годишна гаранция",
+        "За изработеното в кабинета, освен при друга уговорка. Гаранцията важи при спазване на указанията на лекуващия лекар и необходимите профилактични прегледи."
+      ],
+      [
+        "Бърза реакция при болка",
+        "При обаждане за болка намираме начин да помогнем независимо от натовареността на графика."
+      ],
+      [
+        "Удобни начини на плащане",
+        "В брой, Visa, Mastercard и Diners Club."
+      ]
+    ],
+    "galleryLabel": "Истински усмивки",
+    "galleryTitle": "Малки детайли.<br>Видима промяна.",
+    "galleryIntro": "Клинични случаи и усмивки на наши пациенти от оригиналната галерия.",
+    "galleryAll": "Цялата галерия",
+    "before": "Преди",
+    "after": "След",
+    "case": "Клиничен случай",
+    "reviewsLabel": "Думи от нашите пациенти",
+    "reviewsTitle": "Усмивката е<br>най-добрата препоръка.",
+    "contactLabel": "Нека се запознаем",
+    "contactTitle": "Вашата следваща<br><em>усмивка започва тук.</em>",
+    "contactIntro": "Свържете се с нас за консултация или час. Ще се радваме да Ви посрещнем.",
+    "address": "ул. „Академик Андрей Сахаров“ 27",
+    "address2": "етаж 2, кабинет 206 · Варна 9000",
+    "hours": "Понеделник – Петък · 10:00 – 19:00",
+    "map": "Упътвания до кабинета",
+    "phone": "Телефон",
+    "email": "Имейл",
+    "hoursLabel": "Работно време",
+    "addressLabel": "Адрес",
+    "formTitle": "Изпратете запитване",
+    "formNote": "Формата подготвя имейл във Вашата пощенска програма. Часът се уточнява след потвърждение от кабинета.",
+    "formLabels": [
+      "Вашето име",
+      "Телефон",
+      "Имейл адрес",
+      "Удобна дата и час за обаждане",
+      "Вашето съобщение"
+    ],
+    "send": "Подгответе имейл",
+    "formStatus": "Имейлът е подготвен. Изпратете го от Вашата пощенска програма или ни пишете на panchevanina@gmail.com.",
+    "privacy": "Поверителност",
+    "privacyText": "Сайтът не използва аналитични или рекламни бисквитки. Формата не съхранява и не изпраща данни към сървър — отваря Вашата програма за електронна поща. Външните карти и Facebook се отварят само при избор на съответния линк.",
+    "library": "Библиотека на леченията",
+    "libraryIntro": "Подробна информация за всяко лечение, клинични случаи и снимки.",
+    "search": "Търсете лечение",
+    "noResults": "Няма намерени лечения. Опитайте друга дума.",
+    "back": "Към началната страница",
+    "original": "Пълен оригинален текст и снимки (български)",
+    "sourcePages": "Допълнителни страници от оригиналния сайт",
+    "certificateLabel": "Квалификации и сертификати",
+    "surgeryPhotos": "Снимки от хирургична процедура",
+    "surgeryNotice": "Кадрите може да са неподходящи за някои посетители.",
+    "showPhotos": "Покажи снимките",
+    "viewImage": "Отвори снимката",
+    "skip": "Към съдържанието",
+    "previous": "Предишна снимка",
+    "next": "Следваща снимка",
+    "image": "Снимка",
+    "compare": "Двата дизайна",
+    "footer": "Дентална грижа с лично отношение. Варна, България.",
+    "treatmentNames": [
+      "Коронки и мостове",
+      "Естетични пломби",
+      "Керамични пломби",
+      "Лечение на възпалени венци",
+      "Вадене на зъб",
+      "Бондинг",
+      "Избелване на зъби",
+      "Силанти",
+      "Глас-фибровлакна",
+      "Керамични фасети",
+      "Почистване на зъбен камък",
+      "Лечение на кариес",
+      "Лечение на коренови канали",
+      "Импланти",
+      "Синус лифт и костна хирургия"
+    ],
+    "summaries": [
+      "Възстановяване на функцията и естествения вид на зъбите.",
+      "Прецизно възстановяване с висококачествени композити.",
+      "Здрави и естетични керамични инлеи и вставки.",
+      "Лечение на пародонтит и поддържаща грижа за венците.",
+      "Екстракция и оперативно отстраняване на мъдреци.",
+      "Щадяща корекция на форма, цвят и малки дефекти.",
+      "Професионално избелване със системите Opalescence.",
+      "Профилактична защита на постоянните детски зъби.",
+      "Адхезивни мостове, шиниране, изграждания и ретейнери.",
+      "Фина керамика за хармонична форма и цвят.",
+      "Ултразвуково почистване, Air Flow и полиране.",
+      "Ранна диагностика и възстановяване с фотополимер.",
+      "Ендодонтско лечение и релечение под рентгенов контрол.",
+      "Възстановяване на липсващи зъби с дентални импланти.",
+      "Подготовка на костта за поставяне на импланти."
+    ]
+  },
+  "en": {
+    "name": "Dr. Nina Pancheva",
+    "role": "Doctor of Dental Medicine",
+    "location": "Dental practice · Varna",
+    "nav": [
+      "About",
+      "Treatments",
+      "Your dentist",
+      "Our approach",
+      "Gallery",
+      "Contact"
+    ],
+    "book": "Book a visit",
+    "call": "Call us",
+    "menu": "Menu",
+    "close": "Close",
+    "hero1": "Every smile deserves <em>attention.</em>",
+    "hero2": "Care for you.<br>Harmony in your <em>smile.</em>",
+    "intro": "A calm atmosphere, personal attention and precise dental care. Welcome to Dr. Nina Pancheva’s practice in Varna.",
+    "explore": "Explore our treatments",
+    "scroll": "Discover our practice",
+    "heroNote": "Your smile.<br>Our care.",
+    "since": "Independent practice since 2012",
+    "nhif": "Working with the NHIF",
+    "comfort": "Care with your comfort in mind",
+    "aboutLabel": "Welcome",
+    "aboutTitle": "Feel at ease.<br>Smile with confidence.",
+    "about": [
+      "We are here to help you care for your dental health, feel happy with your smile and know that your teeth and mouth are being looked after.",
+      "Treatment starts only after full anaesthesia, so you can feel comfortable throughout your visit. We use high-quality materials and work with a laboratory of experienced, competent specialists.",
+      "We attend courses, lectures and workshops to keep developing our knowledge and the quality of our care."
+    ],
+    "servicesLabel": "How we can help",
+    "servicesTitle": "Thoughtful care.<br>For your smile.",
+    "servicesIntro": "From prevention to complete restoration, discover every treatment available at our practice.",
+    "categories": [
+      "All treatments",
+      "Aesthetic dentistry",
+      "Restorative dentistry",
+      "Prevention & gums",
+      "Surgery & implants"
+    ],
+    "read": "About the treatment",
+    "allTreatments": "The complete treatment library",
+    "doctorLabel": "Your dentist",
+    "doctorTitle": "Dr. Nina<br><em>Pancheva.</em>",
+    "doctorIntro": "Precision in the details. Personal attention at every visit.",
+    "bio": [
+      [
+        "2008",
+        "Master’s degree in Dental Medicine, Faculty of Dental Medicine, Medical University of Sofia."
+      ],
+      [
+        "2012",
+        "Opened her own practice at 27 Andrey Sakharov Street, room 206, Varna."
+      ],
+      [
+        "2013–2014",
+        "Part-time assistant in the Department of Prosthetic Dental Medicine in Varna for three semesters."
+      ]
+    ],
+    "training": "Training and courses in Bulgaria and abroad in periodontology, implantology, aesthetic dentistry and endodontics.",
+    "certificates": "Explore her qualifications",
+    "whyLabel": "Our principles",
+    "whyTitle": "Trust, built<br>through care.",
+    "reasons": [
+      [
+        "13 years of experience",
+        "Continuing professional development through training in Bulgaria and abroad."
+      ],
+      [
+        "High-quality materials",
+        "Material quality is something we never compromise on."
+      ],
+      [
+        "Comfortable treatment",
+        "Treatment begins after full anaesthesia. We use high-grade, purified anaesthetics to minimise the risk of complications."
+      ],
+      [
+        "National health insurance",
+        "The practice works with Bulgaria’s National Health Insurance Fund (NHIF)."
+      ],
+      [
+        "Five-year guarantee",
+        "Work carried out at the practice is covered unless otherwise agreed. The guarantee depends on following the dentist’s instructions and attending the necessary preventive examinations."
+      ],
+      [
+        "A prompt response to pain",
+        "When a patient calls with pain, we find a way to help regardless of how busy the schedule is."
+      ],
+      [
+        "Payment options",
+        "Cash, Visa, Mastercard and Diners Club."
+      ]
+    ],
+    "galleryLabel": "Real smiles",
+    "galleryTitle": "Small details.<br>A visible difference.",
+    "galleryIntro": "Clinical cases and patient smiles from the original practice gallery.",
+    "galleryAll": "Explore the full gallery",
+    "before": "Before",
+    "after": "After",
+    "case": "Clinical case",
+    "reviewsLabel": "Words from our patients",
+    "reviewsTitle": "A smile is the<br>best recommendation.",
+    "contactLabel": "Let’s meet",
+    "contactTitle": "Your next smile<br><em>starts here.</em>",
+    "contactIntro": "Get in touch to arrange a consultation or a visit. We look forward to welcoming you.",
+    "address": "27 Akademik Andrey Sakharov Street",
+    "address2": "Floor 2, room 206 · Varna 9000",
+    "hours": "Monday – Friday · 10:00 – 19:00",
+    "map": "Directions to the practice",
+    "phone": "Telephone",
+    "email": "Email",
+    "hoursLabel": "Opening hours",
+    "addressLabel": "Address",
+    "formTitle": "Send an enquiry",
+    "formNote": "This form prepares an email in your own email app. Appointments are arranged after confirmation by the practice.",
+    "formLabels": [
+      "Your name",
+      "Telephone",
+      "Email address",
+      "Preferred callback date and time",
+      "Your message"
+    ],
+    "send": "Prepare email",
+    "formStatus": "Your email is prepared. Send it from your email app, or write to panchevanina@gmail.com.",
+    "privacy": "Privacy",
+    "privacyText": "This website uses no analytics or advertising cookies. The form does not store or send data to a server; it opens your email app. External maps and Facebook open only when you choose their links.",
+    "library": "Treatment library",
+    "libraryIntro": "Detailed treatment information, clinical cases and photographs.",
+    "search": "Search treatments",
+    "noResults": "No treatments found. Try another word.",
+    "back": "Back to the practice",
+    "original": "Complete original text and photographs (Bulgarian)",
+    "sourcePages": "Additional pages from the original website",
+    "certificateLabel": "Qualifications & certificates",
+    "surgeryPhotos": "Surgical procedure photographs",
+    "surgeryNotice": "Some visitors may find these images unsuitable.",
+    "showPhotos": "Show photographs",
+    "viewImage": "Open photograph",
+    "skip": "Skip to content",
+    "previous": "Previous photograph",
+    "next": "Next photograph",
+    "image": "Photograph",
+    "compare": "Compare the designs",
+    "footer": "Dental care with a personal touch. Varna, Bulgaria.",
+    "treatmentNames": [
+      "Crowns & bridges",
+      "Aesthetic fillings",
+      "Ceramic inlays",
+      "Gum treatment",
+      "Tooth extraction",
+      "Bonding",
+      "Teeth whitening",
+      "Fissure sealants",
+      "Glass fibre restorations",
+      "Ceramic veneers",
+      "Scaling & polishing",
+      "Caries treatment",
+      "Root canal treatment",
+      "Dental implants",
+      "Sinus lift & bone surgery"
+    ],
+    "summaries": [
+      "Restore tooth function and a natural appearance.",
+      "Precise restorations with high-quality composites.",
+      "Strong, aesthetic ceramic inlays and onlays.",
+      "Periodontal treatment and continuing gum care.",
+      "Extractions and surgical wisdom tooth removal.",
+      "Conservative changes to shape, shade and small defects.",
+      "Professional whitening with Opalescence systems.",
+      "Preventive protection for children’s permanent teeth.",
+      "Adhesive bridges, splints, posts and retainers.",
+      "Fine ceramic restorations for harmonious shape and colour.",
+      "Ultrasonic scaling, Air Flow and polishing.",
+      "Early diagnosis and tooth-coloured restoration.",
+      "Endodontic treatment and retreatment with X-ray control.",
+      "Replace missing teeth with dental implants.",
+      "Prepare and regenerate bone before implant placement."
+    ]
+  },
+  "ru": {
+    "name": "Д-р Нина Панчева",
+    "role": "Врач стоматолог",
+    "location": "Стоматологическая практика · Варна",
+    "nav": [
+      "О нас",
+      "Лечение",
+      "Ваш врач",
+      "Наш подход",
+      "Галерея",
+      "Контакты"
+    ],
+    "book": "Записаться",
+    "call": "Позвонить",
+    "menu": "Меню",
+    "close": "Закрыть",
+    "hero1": "Каждая улыбка заслуживает <em>внимания.</em>",
+    "hero2": "Забота о вас.<br>Гармония вашей <em>улыбки.</em>",
+    "intro": "Спокойная атмосфера, личное внимание и точная стоматологическая работа. Добро пожаловать в практику д-ра Нины Панчевой в Варне.",
+    "explore": "Виды лечения",
+    "scroll": "Познакомьтесь с нами",
+    "heroNote": "Ваша улыбка.<br>Наша забота.",
+    "since": "Собственная практика с 2012 года",
+    "nhif": "Работаем с НЗОК",
+    "comfort": "Забота о вашем комфорте",
+    "aboutLabel": "Добро пожаловать",
+    "aboutTitle": "Чувствуйте себя спокойно.<br>Улыбайтесь уверенно.",
+    "about": [
+      "Мы рады помочь вам сохранить здоровье зубов, радоваться своей улыбке и быть спокойными за состояние полости рта.",
+      "Мы начинаем лечение только после полного обезболивания, чтобы вам было комфортно. Используем качественные материалы и сотрудничаем с лабораторией опытных и компетентных специалистов.",
+      "Посещаем курсы, лекции и практические семинары, чтобы постоянно развивать знания и повышать качество работы."
+    ],
+    "servicesLabel": "Как мы можем помочь",
+    "servicesTitle": "Продуманная забота.<br>О вашей улыбке.",
+    "servicesIntro": "От профилактики до полного восстановления — познакомьтесь со всеми видами лечения в нашей практике.",
+    "categories": [
+      "Все виды лечения",
+      "Эстетическая стоматология",
+      "Протезирование",
+      "Профилактика и дёсны",
+      "Хирургия и импланты"
+    ],
+    "read": "Подробнее о лечении",
+    "allTreatments": "Полная библиотека лечения",
+    "doctorLabel": "Ваш врач",
+    "doctorTitle": "Д-р Нина<br><em>Панчева.</em>",
+    "doctorIntro": "Точность в деталях. Личное внимание при каждой встрече.",
+    "bio": [
+      [
+        "2008",
+        "Медицинский университет Софии, факультет стоматологии. Степень магистра, врач стоматолог."
+      ],
+      [
+        "2012",
+        "Открытие собственной практики в Варне: ул. Андрей Сахаров 27, кабинет 206."
+      ],
+      [
+        "2013–2014",
+        "Внештатный ассистент кафедры ортопедической стоматологии в Варне в течение трёх семестров."
+      ]
+    ],
+    "training": "Курсы в Болгарии и за рубежом по пародонтологии, имплантологии, эстетической стоматологии и эндодонтии.",
+    "certificates": "Квалификации и сертификаты",
+    "whyLabel": "Наши принципы",
+    "whyTitle": "Доверие, основанное<br>на заботе.",
+    "reasons": [
+      [
+        "13 лет опыта",
+        "Постоянное профессиональное развитие на курсах в Болгарии и за рубежом."
+      ],
+      [
+        "Качественные материалы",
+        "Качество материалов — то, в чём мы не идём на компромисс."
+      ],
+      [
+        "Лечение без боли",
+        "Лечение начинается после полного обезболивания. Используем высококачественные очищенные анестетики, снижающие риск осложнений."
+      ],
+      [
+        "Работа со здравной кассой",
+        "Практика работает с Национальной кассой медицинского страхования Болгарии (НЗОК)."
+      ],
+      [
+        "Гарантия пять лет",
+        "На выполненную в кабинете работу, если не согласовано иное. Гарантия действует при соблюдении указаний лечащего врача и посещении необходимых профилактических осмотров."
+      ],
+      [
+        "Быстрая помощь при боли",
+        "Если пациент звонит с жалобой на боль, мы находим возможность помочь независимо от загруженности расписания."
+      ],
+      [
+        "Способы оплаты",
+        "Наличные, Visa, Mastercard и Diners Club."
+      ]
+    ],
+    "galleryLabel": "Настоящие улыбки",
+    "galleryTitle": "Маленькие детали.<br>Заметные перемены.",
+    "galleryIntro": "Клинические случаи и улыбки пациентов из первоначальной галереи практики.",
+    "galleryAll": "Вся галерея",
+    "before": "До",
+    "after": "После",
+    "case": "Клинический случай",
+    "reviewsLabel": "Слова наших пациентов",
+    "reviewsTitle": "Улыбка — лучшая<br>рекомендация.",
+    "contactLabel": "Давайте познакомимся",
+    "contactTitle": "Ваша новая улыбка<br><em>начинается здесь.</em>",
+    "contactIntro": "Свяжитесь с нами для консультации или записи на приём. Будем рады вас видеть.",
+    "address": "ул. Академик Андрей Сахаров 27",
+    "address2": "Этаж 2, кабинет 206 · Варна 9000",
+    "hours": "Понедельник – пятница · 10:00 – 19:00",
+    "map": "Как добраться",
+    "phone": "Телефон",
+    "email": "Электронная почта",
+    "hoursLabel": "Часы работы",
+    "addressLabel": "Адрес",
+    "formTitle": "Отправить запрос",
+    "formNote": "Форма подготовит письмо в вашей почтовой программе. Запись согласовывается после подтверждения кабинетом.",
+    "formLabels": [
+      "Ваше имя",
+      "Телефон",
+      "Электронная почта",
+      "Удобные дата и время для звонка",
+      "Ваше сообщение"
+    ],
+    "send": "Подготовить письмо",
+    "formStatus": "Письмо подготовлено. Отправьте его из почтовой программы или напишите на panchevanina@gmail.com.",
+    "privacy": "Конфиденциальность",
+    "privacyText": "Сайт не использует аналитические или рекламные файлы cookie. Форма не сохраняет и не отправляет данные на сервер — она открывает вашу почтовую программу. Внешние карты и Facebook открываются только по соответствующим ссылкам.",
+    "library": "Библиотека лечения",
+    "libraryIntro": "Подробная информация, клинические случаи и фотографии.",
+    "search": "Поиск лечения",
+    "noResults": "Ничего не найдено. Попробуйте другое слово.",
+    "back": "На главную страницу",
+    "original": "Полный исходный текст и фотографии (болгарский)",
+    "sourcePages": "Дополнительные страницы первоначального сайта",
+    "certificateLabel": "Квалификации и сертификаты",
+    "surgeryPhotos": "Фотографии хирургической процедуры",
+    "surgeryNotice": "Некоторым посетителям эти кадры могут показаться неподходящими.",
+    "showPhotos": "Показать фотографии",
+    "viewImage": "Открыть фотографию",
+    "skip": "К содержимому",
+    "previous": "Предыдущая фотография",
+    "next": "Следующая фотография",
+    "image": "Фотография",
+    "compare": "Сравнить дизайны",
+    "footer": "Стоматология с личным отношением. Варна, Болгария.",
+    "treatmentNames": [
+      "Коронки и мосты",
+      "Эстетические пломбы",
+      "Керамические вкладки",
+      "Лечение дёсен",
+      "Удаление зуба",
+      "Бондинг",
+      "Отбеливание зубов",
+      "Герметизация фиссур",
+      "Стекловолоконные конструкции",
+      "Керамические виниры",
+      "Удаление зубного камня",
+      "Лечение кариеса",
+      "Лечение корневых каналов",
+      "Импланты",
+      "Синус-лифтинг и костная хирургия"
+    ],
+    "summaries": [
+      "Восстановление функции и естественного вида зубов.",
+      "Точные реставрации качественными композитами.",
+      "Прочные и эстетичные керамические вкладки.",
+      "Лечение пародонтита и поддерживающий уход.",
+      "Удаление зубов, включая хирургическое удаление зубов мудрости.",
+      "Щадящая коррекция формы, цвета и небольших дефектов.",
+      "Профессиональное отбеливание системами Opalescence.",
+      "Профилактическая защита постоянных зубов у детей.",
+      "Адгезивные мосты, шины, штифты и ретейнеры.",
+      "Тонкая керамика для гармоничной формы и цвета.",
+      "Ультразвук, Air Flow и полировка.",
+      "Ранняя диагностика и восстановление фотополимером.",
+      "Лечение и перелечивание под рентгеновским контролем.",
+      "Восстановление утраченных зубов имплантами.",
+      "Подготовка и восстановление кости для имплантации."
+    ]
+  },
+  "de": {
+    "name": "Dr. Nina Pantscheva",
+    "role": "Zahnärztin",
+    "location": "Zahnarztpraxis · Varna",
+    "nav": [
+      "Über uns",
+      "Leistungen",
+      "Ihre Zahnärztin",
+      "Unser Ansatz",
+      "Galerie",
+      "Kontakt"
+    ],
+    "book": "Termin vereinbaren",
+    "call": "Anrufen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "hero1": "Jedes Lächeln verdient <em>Aufmerksamkeit.</em>",
+    "hero2": "Für Sie da.<br>Harmonie in Ihrem <em>Lächeln.</em>",
+    "intro": "Eine ruhige Atmosphäre, persönliche Zuwendung und präzise Zahnmedizin. Willkommen in der Praxis von Dr. Nina Pantscheva in Varna.",
+    "explore": "Leistungen entdecken",
+    "scroll": "Unsere Praxis kennenlernen",
+    "heroNote": "Ihr Lächeln.<br>Unsere Fürsorge.",
+    "since": "Eigene Praxis seit 2012",
+    "nhif": "Zusammenarbeit mit der Krankenkasse",
+    "comfort": "Ihr Wohlbefinden im Mittelpunkt",
+    "aboutLabel": "Willkommen",
+    "aboutTitle": "Sich wohlfühlen.<br>Unbeschwert lächeln.",
+    "about": [
+      "Wir helfen Ihnen gern, Ihre Zahngesundheit zu erhalten, sich mit Ihrem Lächeln wohlzufühlen und Ihre Zähne in guten Händen zu wissen.",
+      "Wir beginnen eine Behandlung erst nach vollständiger Betäubung. Wir verwenden hochwertige Materialien und arbeiten mit einem Labor erfahrener und kompetenter Fachkräfte zusammen.",
+      "Durch Kurse, Vorträge und Workshops entwickeln wir unser Wissen und die Qualität unserer Arbeit kontinuierlich weiter."
+    ],
+    "servicesLabel": "Wie wir helfen können",
+    "servicesTitle": "Aufmerksame Pflege.<br>Für Ihr Lächeln.",
+    "servicesIntro": "Von der Vorsorge bis zur vollständigen Wiederherstellung: Entdecken Sie alle Behandlungen unserer Praxis.",
+    "categories": [
+      "Alle Behandlungen",
+      "Ästhetische Zahnmedizin",
+      "Zahnersatz",
+      "Vorsorge & Zahnfleisch",
+      "Chirurgie & Implantate"
+    ],
+    "read": "Zur Behandlung",
+    "allTreatments": "Alle Behandlungen im Detail",
+    "doctorLabel": "Ihre Zahnärztin",
+    "doctorTitle": "Dr. Nina<br><em>Pantscheva.</em>",
+    "doctorIntro": "Präzision im Detail. Persönliche Zuwendung bei jedem Besuch.",
+    "bio": [
+      [
+        "2008",
+        "Abschluss an der Medizinischen Universität Sofia, Fakultät für Zahnmedizin, als Magister der Zahnmedizin."
+      ],
+      [
+        "2012",
+        "Eröffnung der eigenen Praxis in Varna, Andrei-Saharov-Straße 27, Zimmer 206."
+      ],
+      [
+        "2013–2014",
+        "Nebenamtliche Assistentin in der Abteilung für prothetische Zahnmedizin in Varna, drei Semester."
+      ]
+    ],
+    "training": "Fortbildungen in Bulgarien und im Ausland in Parodontologie, Implantologie, ästhetischer Zahnmedizin und Endodontie.",
+    "certificates": "Qualifikationen entdecken",
+    "whyLabel": "Unsere Grundsätze",
+    "whyTitle": "Vertrauen durch<br>aufmerksame Fürsorge.",
+    "reasons": [
+      [
+        "13 Jahre Erfahrung",
+        "Ständige fachliche Weiterentwicklung durch Fortbildungen in Bulgarien und im Ausland."
+      ],
+      [
+        "Hochwertige Materialien",
+        "Bei der Materialqualität machen wir keine Kompromisse."
+      ],
+      [
+        "Schmerzarme Behandlung",
+        "Die Behandlung beginnt nach vollständiger Betäubung. Hochwertige, gereinigte Anästhetika minimieren das Risiko von Komplikationen."
+      ],
+      [
+        "Gesetzliche Krankenkasse",
+        "Die Praxis arbeitet mit der bulgarischen nationalen Krankenversicherung (NHIF)."
+      ],
+      [
+        "Fünf Jahre Garantie",
+        "Für die in der Praxis ausgeführten Arbeiten, sofern nichts anderes vereinbart wurde. Voraussetzung sind das Befolgen der ärztlichen Anweisungen und die erforderlichen Kontrolluntersuchungen."
+      ],
+      [
+        "Schnelle Hilfe bei Schmerzen",
+        "Wenn Patienten wegen Schmerzen anrufen, finden wir unabhängig von der Auslastung des Terminplans eine Möglichkeit zu helfen."
+      ],
+      [
+        "Zahlungsmöglichkeiten",
+        "Barzahlung, Visa, Mastercard und Diners Club."
+      ]
+    ],
+    "galleryLabel": "Echte Lächeln",
+    "galleryTitle": "Kleine Details.<br>Ein sichtbarer Unterschied.",
+    "galleryIntro": "Klinische Fälle und Patientenlächeln aus der ursprünglichen Praxisgalerie.",
+    "galleryAll": "Die gesamte Galerie",
+    "before": "Vorher",
+    "after": "Nachher",
+    "case": "Klinischer Fall",
+    "reviewsLabel": "Stimmen unserer Patienten",
+    "reviewsTitle": "Ein Lächeln ist die<br>beste Empfehlung.",
+    "contactLabel": "Lernen wir uns kennen",
+    "contactTitle": "Ihr nächstes Lächeln<br><em>beginnt hier.</em>",
+    "contactIntro": "Kontaktieren Sie uns für eine Beratung oder einen Termin. Wir freuen uns auf Sie.",
+    "address": "Akademik-Andrei-Saharov-Straße 27",
+    "address2": "2. Etage, Zimmer 206 · 9000 Varna",
+    "hours": "Montag – Freitag · 10:00 – 19:00 Uhr",
+    "map": "Anfahrt zur Praxis",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hoursLabel": "Öffnungszeiten",
+    "addressLabel": "Adresse",
+    "formTitle": "Anfrage senden",
+    "formNote": "Das Formular bereitet eine E-Mail in Ihrem E-Mail-Programm vor. Termine werden erst nach Bestätigung durch die Praxis vereinbart.",
+    "formLabels": [
+      "Ihr Name",
+      "Telefon",
+      "E-Mail-Adresse",
+      "Gewünschtes Rückrufdatum und Uhrzeit",
+      "Ihre Nachricht"
+    ],
+    "send": "E-Mail vorbereiten",
+    "formStatus": "Ihre E-Mail ist vorbereitet. Senden Sie sie aus Ihrem E-Mail-Programm oder schreiben Sie an panchevanina@gmail.com.",
+    "privacy": "Datenschutz",
+    "privacyText": "Diese Website verwendet keine Analyse- oder Werbe-Cookies. Das Formular speichert oder übermittelt keine Daten an einen Server, sondern öffnet Ihr E-Mail-Programm. Externe Karten und Facebook öffnen sich nur, wenn Sie deren Links auswählen.",
+    "library": "Behandlungsbibliothek",
+    "libraryIntro": "Ausführliche Informationen, klinische Fälle und Fotos.",
+    "search": "Behandlung suchen",
+    "noResults": "Keine Behandlung gefunden. Versuchen Sie ein anderes Wort.",
+    "back": "Zur Praxis-Startseite",
+    "original": "Vollständiger Originaltext und Fotos (Bulgarisch)",
+    "sourcePages": "Zusätzliche Seiten der ursprünglichen Website",
+    "certificateLabel": "Qualifikationen & Zertifikate",
+    "surgeryPhotos": "Fotos eines chirurgischen Eingriffs",
+    "surgeryNotice": "Diese Bilder können für manche Besucher ungeeignet sein.",
+    "showPhotos": "Fotos anzeigen",
+    "viewImage": "Foto öffnen",
+    "skip": "Zum Inhalt",
+    "previous": "Vorheriges Foto",
+    "next": "Nächstes Foto",
+    "image": "Foto",
+    "compare": "Designs vergleichen",
+    "footer": "Zahnmedizin mit persönlicher Zuwendung. Varna, Bulgarien.",
+    "treatmentNames": [
+      "Kronen & Brücken",
+      "Ästhetische Füllungen",
+      "Keramische Einlagefüllungen",
+      "Zahnfleischbehandlung",
+      "Zahnentfernung",
+      "Bonding",
+      "Zahnaufhellung",
+      "Fissurenversiegelung",
+      "Glasfaserrestaurationen",
+      "Keramische Veneers",
+      "Zahnsteinentfernung",
+      "Kariesbehandlung",
+      "Wurzelkanalbehandlung",
+      "Zahnimplantate",
+      "Sinuslift & Knochenchirurgie"
+    ],
+    "summaries": [
+      "Funktion und natürliches Aussehen wiederherstellen.",
+      "Präzise Restaurationen mit hochwertigen Kompositen.",
+      "Stabile, ästhetische keramische Inlays und Onlays.",
+      "Parodontitisbehandlung und laufende Nachsorge.",
+      "Extraktionen und operative Weisheitszahnentfernung.",
+      "Schonende Korrekturen von Form, Farbe und kleinen Defekten.",
+      "Professionelle Aufhellung mit Opalescence-Systemen.",
+      "Vorbeugender Schutz bleibender Kinderzähne.",
+      "Adhäsivbrücken, Schienen, Stifte und Retainer.",
+      "Feine Keramik für harmonische Form und Farbe.",
+      "Ultraschall, Air Flow und Politur.",
+      "Früherkennung und zahnfarbene Versorgung.",
+      "Endodontie und Revision unter Röntgenkontrolle.",
+      "Fehlende Zähne mit Implantaten ersetzen.",
+      "Knochenaufbau zur Vorbereitung einer Implantation."
+    ]
+  }
+}

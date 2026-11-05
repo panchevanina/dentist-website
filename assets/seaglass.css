@@ -1,0 +1,34 @@
+:root{--paper:#ffffff;--soft:#eef4f0;--ink:#1d3430;--accent:#21675c;--muted:#667570;--line:#dbe4de;--focus:#bc753e;--highlight:#d7dfad}.design-1 .button,.design-1 .header-book{border-radius:3px}.design-1 .hero{background:#ffffff}.design-1 .hero-grid{gap:80px}.design-1 .hero-visual{padding:17px 0 0 17px}.design-1 .hero-visual:before{content:"";position:absolute;inset:0 17px 17px 0;border:1px solid #bacdc1;border-radius:150px 10px 12px 12px;z-index:0}.design-1 .hero-photo{position:relative;border-radius:145px 8px 8px 8px;object-position:49% center}.design-1 .hero-note{z-index:1;border-radius:4px}.design-1 .services-section{background:#f3f6f1}.design-1 .services-grid{gap:13px}.design-1 .service-item{background:var(--paper);border:0;border-radius:5px;min-height:172px}.design-1 .service-item:hover{background:#e5eee7}.design-1 .service-number{color:var(--accent);opacity:.7}.design-1 .reasons-section{background:#eaf0e9}.design-1 .contact-section{background:#ffffff}.design-1 .contact-form-wrap{border:1px solid var(--line);border-radius:5px;background:var(--paper)}.design-1 .gallery-section{background:var(--paper)}.design-1 .review{border-radius:5px}.design-1 .reviews-section{background:#ffffff}.design-1 .filter-button{border-radius:30px}.design-1 .page-title{background:#eef4ed}.design-1 .practice-image{border-radius:5px}.design-1 .doctor-portrait>img{border-radius:120px 5px 0 0}.design-1 .portrait-caption{border-radius:0 0 5px 5px}
+@media(max-width:900px){.design-1 .hero-grid{gap:35px}}
+@media(max-width:640px){.design-1 .hero-grid{gap:30px}.design-1 .hero-visual{padding:12px 0 0 12px}.design-1 .hero-photo{border-top-left-radius:90px}.design-1 .hero-visual:before{inset:0 12px 12px 0;border-top-left-radius:95px}.design-1 .service-item{min-height:135px}}
+
+/* Selected production design: image-led services and direct contact details. */
+.design-1 .header-inner{gap:40px}
+.design-1 #main-nav{margin-left:auto;font-size:11px;gap:28px}
+.design-1 .brand-monogram{letter-spacing:-.13em}
+.featured-services-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-bottom:24px}
+.design-1 .service-item.featured-service{display:block;padding:0;overflow:hidden;border:1px solid var(--line);background:var(--paper)}
+.service-visual{display:block;height:235px;background:#fff;overflow:hidden}
+.service-visual img{height:100%;width:100%;transition:transform .4s}
+.service-visual.fit-cover img{object-fit:cover}
+.service-visual.fit-contain img{object-fit:contain;padding:18px}
+.service-visual:hover img{transform:scale(1.025)}
+.featured-service-copy{position:relative;padding:28px 30px 42px}
+.featured-service-copy .service-number{display:block;padding:0;margin-bottom:13px}
+.featured-service-copy h3{font-size:23px;line-height:1.35;padding-right:22px}
+.featured-service-copy p{font-size:12px;line-height:1.85;margin-top:12px;max-width:420px}
+.featured-service-copy .service-arrow{right:26px;bottom:20px}
+.service-detail-image{display:block!important;width:100%;margin:0 0 30px!important;background:#f6f9f6;border:1px solid var(--line)}
+.article-body .service-detail-image img{display:block;width:100%;max-height:360px;height:360px;object-fit:contain;margin:0;padding:16px}
+.product-link{font-size:12px;margin-top:25px!important}
+.location-card{border:1px solid var(--line);border-radius:5px;overflow:hidden;align-self:start;background:var(--paper)}
+.location-card>img{width:100%;height:265px;object-fit:cover;object-position:center 60%}
+.location-card-copy{padding:30px 34px}
+.location-card-copy .eyebrow{margin-bottom:16px}
+.location-card-copy h3{font-size:22px;line-height:1.45}
+.location-card-copy p{font-size:12px;color:var(--muted);margin-top:8px}
+.location-card-copy .text-link{margin-top:22px;font-size:12px}
+.design-1 .contact-details>div{grid-template-columns:105px 1fr;font-size:13px}
+@media(max-width:1150px){.design-1 #main-nav{gap:20px}.featured-service-copy h3{font-size:21px}}
+@media(max-width:900px){.design-1 #main-nav{margin-left:0;gap:16px;font-size:11px}.design-1 .header-inner{gap:0}.service-visual{height:210px}.featured-service-copy{padding:24px 24px 40px}.featured-service-copy h3{font-size:20px}.location-card-copy{padding:25px}.location-card>img{height:230px}.design-1 .contact-details>div{grid-template-columns:85px 1fr;font-size:11px}}
+@media(max-width:640px){.featured-services-grid{grid-template-columns:1fr;gap:20px}.service-visual{height:215px}.featured-service-copy h3{font-size:23px}.featured-service-copy p{font-size:13px}.featured-service-copy{padding:25px 25px 42px}.article-body .service-detail-image img{height:230px;max-height:230px}.location-card>img{height:245px}.location-card-copy{padding:27px 24px}.location-card-copy h3{font-size:22px}.design-1 .contact-details>div{grid-template-columns:94px 1fr;font-size:12px}}
